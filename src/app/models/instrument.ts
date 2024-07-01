@@ -1,5 +1,5 @@
 export interface Instrument {
-  id: string;
+  id?: string;
   name: string;
   quantity: number;
 }
