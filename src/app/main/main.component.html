@@ -23,9 +23,9 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td></td>
-        <td></td>
+      <tr *ngFor="let instrument of instruments">
+        <td>{{instrument.name}}</td>
+        <td>{{instrument.quantity}}</td>
         <td>
           <button class="btn btn-warning btn-sm mx-2 my-2">Edit</button>
           <button class="btn btn-danger btn-sm ml-2">Delete</button>
